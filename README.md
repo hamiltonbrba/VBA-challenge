@@ -56,9 +56,11 @@ Press Alt + F11 in Excel to open the VBA editor.
 
 ## Credibility
 
-This script was developed with assistance from ChatGPT. Specifically:
+This script was developed with assistance from ChatGPT, an AI language model created by OpenAI. 
+Specifically:
   - "how do I change "Set ws = ThisWorkbook.Sheets("Q1")" to run based on the current active sheet?"
     - Answer: "Set ws = ActiveSheet"
   - "Isn't there a hard limit for max calculations if you set the maxincrease and maxdecrease to arbitrary numbers?"
     - Answer: "You're correct. Setting arbitrary large initial values for maxIncrease and maxDecrease can potentially limit the calculations if the actual values exceed these initial values or if they are set incorrectly. A better approach is to use -Inf and Inf (negative infinity and positive infinity) for these variables, respectively."
-
+    
+Found Color palette code from: http://dmcritchie.mvps.org/excel/colors.htm
