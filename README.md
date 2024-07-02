@@ -67,3 +67,5 @@ Found Color palette code from: http://dmcritchie.mvps.org/excel/colors.htm
 ## NOTES & Mistakes
 Had trouble figuring out why my Excel workbook wouldn't open with the macros enabled -- Realized I wasn't saving it as a macro-enabled workbook - obvious, but a mistake nonetheless
 
+## EDITS
+Reincluded the Alphabetical_Testing(finalized).xlsm file and made sure the script worked in that workbook as well -- included it into the repo in case it was needed for review
