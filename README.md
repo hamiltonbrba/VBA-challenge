@@ -39,19 +39,18 @@ Alternatively
 
 1. Open the VBA Editor:
 
-Press Alt + F11 in Excel to open the VBA editor.
+  - Press Alt + F11 in Excel to open the VBA editor.
 
 2. Insert a New Module:
   - Click Insert > Module to create a new module in your workbook.
 
 3. Copy and Paste the Code:
-  - Copy the VBA script code into the new module
-  OR
-  - Run the script from the Module available
+  - Copy the VBA script code into the new module 
    
 5. Run the Script:
   - Ensure the worksheet you want to run the script on is the active sheet 
   - Press F5 in the VBA editor to run the script
+  - **OR** Run the script from the button on the sheet
 
 
 ## Credibility
@@ -64,3 +63,7 @@ Specifically:
     - Answer: "You're correct. Setting arbitrary large initial values for maxIncrease and maxDecrease can potentially limit the calculations if the actual values exceed these initial values or if they are set incorrectly. A better approach is to use -Inf and Inf (negative infinity and positive infinity) for these variables, respectively."
     
 Found Color palette code from: http://dmcritchie.mvps.org/excel/colors.htm
+
+## NOTES & Mistakes
+Had trouble figuring out why my Excel workbook wouldn't open with the macros enabled -- Realized I wasn't saving it as a macro-enabled workbook - obvious, but a mistake nonetheless
+
