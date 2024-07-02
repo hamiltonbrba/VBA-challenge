@@ -50,7 +50,6 @@ Alternatively
 5. Run the Script:
   - Ensure the worksheet you want to run the script on is the active sheet 
   - Press F5 in the VBA editor to run the script
-  - **OR** Run the script from the button on the sheet
 
 
 ## Credibility
