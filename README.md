@@ -33,7 +33,9 @@ This VBA script is created to automate the analysis of quarterly stock data with
 
 ## How to Use
 
-1. Included is a button in each Quarterly Sheet with the VBA script - Click it!
+** IMPORTANT ** - Be sure after you download the file, to right click the file from your downloads folder, click 'properties' and under the General Tab where it says 'Security' be sure to check the 'Unblock' box and hit Apply otherwise you will be unable to access the macros of the file.
+
+1. Included is a button in each Quarterly Sheet with the VBA script - Click it, it is already assigned the VBA Script with it's macro.
 
 Alternatively
 
