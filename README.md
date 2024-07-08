@@ -62,7 +62,9 @@ Specifically:
     - Answer: "Set ws = ActiveSheet"
   - "Isn't there a hard limit for max calculations if you set the maxincrease and maxdecrease to arbitrary numbers?"
     - Answer: "You're correct. Setting arbitrary large initial values for maxIncrease and maxDecrease can potentially limit the calculations if the actual values exceed these initial values or if they are set incorrectly. A better approach is to use -Inf and Inf (negative infinity and positive infinity) for these variables, respectively."
-    
+  - "I need to run my script as a loop through all the worksheets, what does a For loop look like for worksheets? Is there a specific function to do that?" 
+    - Answer: "Yes, To run your macro on all sheets after running it once on the active sheet, you need to modify your existing macro to loop through each worksheet in the workbook. This involves adding an outer loop that iterates through all the sheets and then running your existing macro code on each sheet. - Use "For each ws in ThisWorkbook.Worksheets" then "ws.Activate" to set the worksheet to the current sheet.
+   
 Found Color palette code from: http://dmcritchie.mvps.org/excel/colors.htm
 
 ## NOTES & Mistakes
@@ -70,3 +72,4 @@ Had trouble figuring out why my Excel workbook wouldn't open with the macros ena
 
 ## EDITS
 Reincluded the Alphabetical_Testing(finalized).xlsm file and made sure the script worked in that workbook as well -- included it into the repo in case it was needed for review
+Had trouble keeping the conditional formatting for the Alphabetical_Testing(finalized).xlsm file to stay active for all the sheets. I had to add it into the VBA script to ensure that it would apply to every worksheet by recording a macro of me setting the conditional formatting rules for column "J" and then copy and pasting it into my existing macro.
