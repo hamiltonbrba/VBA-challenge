@@ -71,5 +71,5 @@ Found Color palette code from: http://dmcritchie.mvps.org/excel/colors.htm
 Had trouble figuring out why my Excel workbook wouldn't open with the macros enabled -- Realized I wasn't saving it as a macro-enabled workbook - obvious, but a mistake nonetheless
 
 ## EDITS
-Reincluded the Alphabetical_Testing(finalized).xlsm file and made sure the script worked in that workbook as well -- included it into the repo in case it was needed for review
-Had trouble keeping the conditional formatting for the Alphabetical_Testing(finalized).xlsm file to stay active for all the sheets. I had to add it into the VBA script to ensure that it would apply to every worksheet by recording a macro of me setting the conditional formatting rules for column "J" and then copy and pasting it into my existing macro.
+   - Reincluded the Alphabetical_Testing(finalized).xlsm file and made sure the script worked in that workbook as well -- included it into the repo in case it was needed for review
+   - Had trouble keeping the conditional formatting for the Alphabetical_Testing(finalized).xlsm file to stay active for all the sheets. I had to add it into the VBA script to ensure that it would apply to every worksheet by recording a macro of me setting the conditional formatting rules for column "J" and then copy and pasting it into my existing macro.
